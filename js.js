@@ -1,12 +1,13 @@
 document.getElementById('mode-toggler').addEventListener('click', function () {
-    const icon = document.getElementById('icon');
+    const sunIcon = document.getElementById('moon-icon');
+    const moonIcon = document.getElementById('sun-icon');
     document.body.classList.toggle('dark');
     if (document.body.classList.contains('dark')) {
-      icon.classList.replace('fa-toggle-on', 'fa-toggle-off');
-      icon.style.transform = 'rotate(180deg)';
+      sunIcon.style.display = 'none';
+      moonIcon.style.display = 'inline-block';
     } else {
-      icon.classList.replace('fa-toggle-off', 'fa-toggle-on');
-      icon.style.transform = 'rotate(0deg)';
+      moonIcon.style.display = 'none';
+      sunIcon.style.display = 'inline-block';
     }
   });
   
