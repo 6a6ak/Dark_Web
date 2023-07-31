@@ -9,7 +9,9 @@ Transition effect for smooth mode change.
 Font Awesome switch icon that flips when changing modes.
 ## Project Structure
 index.html: The main HTML file.
+
 css.css: The CSS file that contains styles for both Dark Mode and Light Mode.
+
 js.js: The JavaScript file for adding interactivity to the switch button.
 ## How to Use
 Clone this repository.
