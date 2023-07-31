@@ -16,7 +16,7 @@ Clone this repository.
 Open index.html in your browser.
 Click on the switch icon to toggle between Dark Mode and Light Mode.
 ## Contributing
-Contributions, issues, and feature requests are welcome. Feel free to check issues page if you want to contribute.
+Contributions, issues, and feature requests are welcome. Feel free to check the issues page if you want to contribute.
 
 ## License
 MIT
