@@ -1,0 +1,35 @@
+body {
+    /* Light mode colors */
+    --text-color: black;
+    --background-color: white;
+    --h1-color: red;
+  }
+  
+  body.dark {
+    /* Dark mode colors */
+    --text-color: white;
+    --background-color: #0d1b2a;
+    --h1-color: blue;
+  }
+  
+  body {
+    /* Use the variables */
+    color: var(--text-color);
+    background-color: var(--background-color);
+  }
+  
+  h1 {
+    color: var(--h1-color);
+  }
+  
+  .switch-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .switch-button i {
+    font-size: 24px;
+    transition: transform 0.5s ease-in-out;
+  }
+  
